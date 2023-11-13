@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using designFashion.Dto.Users.Response;
+
+using fashionDesign.Extensions;
 using fashionDesign.Models;
 
 namespace fashionDesignAPI.Mapper.Users
@@ -11,7 +13,7 @@ namespace fashionDesignAPI.Mapper.Users
             CreateMap<User, UsersResponse>()
                 .ForMember(dest => dest.Id, src => src.MapFrom(s => s.Id))
                 .ForMember(dest => dest.CompanyId, src => src.MapFrom(s => s.CompanyId))
-                .ForMember(dest => dest.CompanyName, src => src.MapFrom(s => s.Company.CompanyName))
+                .ForMember(dest => dest.CompanyName, src => src.MapFrom(s => s.Company.Name))
                 .ForMember(dest => dest.Name, src => src.MapFrom(s => s.Name))
                 .ForMember(dest => dest.Email, src => src.MapFrom(s => s.Email))
                 .ForMember(dest => dest.Role, src => src.MapFrom(s => s.Role.GetEnumDescription()))

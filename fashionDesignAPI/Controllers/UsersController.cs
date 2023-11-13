@@ -2,11 +2,11 @@
 using fashionDesign.Dto.Users.Request;
 using fashionDesign.Interfaces.Services;
 using fashionDesign.Models.Enums;
-using fashionDesign.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using AutoMapper;
 using fashionDesignAPI.Attributes;
+using fashionDesign.Models;
 
 namespace fashionDesign.Controllers
 {
