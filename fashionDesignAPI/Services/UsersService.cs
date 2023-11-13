@@ -48,9 +48,8 @@ namespace fashionDesign.Services
             if (await _repository.CheckEmailAsync(user.Id, user.Email))
                 throw new ConflictException("Email já cadastrado");
 
-            //TODO:
-            //if (await _companyRepository.CheckUser(user.CompanyId, user.Email))
-            //    throw new ConflictException("Usuário já está vinculado a outra empresa");
+            if (await _companyRepository.CheckUser(user.CompanyId, user.Email))
+                throw new ConflictException("Usuário já está vinculado a outra empresa");
 
             user.Password = "12345678";
 

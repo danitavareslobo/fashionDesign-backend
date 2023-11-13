@@ -62,6 +62,19 @@ namespace fashionDesign.Database
                         Password = "12345678"
                     }
                  );
+
+            modelBuilder
+                .Entity<Company>()
+                .HasData(
+                    new Company
+                    {
+                        Id = 1,
+                        Cnpj = "12123123000112",
+                        Email = "fashiondesign@email.com",
+                        Name = "Fashion Design Ltda",
+                        Manager = "Daniele Tavares Lobo",
+                        Password = "12345678"
+                    } );
         }
     }
 }

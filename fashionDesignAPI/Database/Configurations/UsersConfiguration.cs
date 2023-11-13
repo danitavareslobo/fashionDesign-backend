@@ -29,10 +29,10 @@ namespace fashionDesign.Database.Configurations
 
             builder.Property(e => e.Password).HasMaxLength(20).IsRequired();
 
-            //builder
-            //    .HasOne(u => u.Company)
-            //    .WithMany(c => c.User)
-            //    .HasForeignKey(u => u.CompanyId);
+            builder
+                .HasOne(u => u.Company)
+                .WithMany(c => c.Users)
+                .HasForeignKey(u => u.CompanyId);
         }
     }
 }
