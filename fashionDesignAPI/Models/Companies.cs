@@ -1,6 +1,6 @@
 ﻿namespace fashionDesign.Models
 {
-    public class Companies
+    public class Company
     {
     }
 }

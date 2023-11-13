@@ -1,6 +1,8 @@
 ﻿namespace fashionDesign.Exceptions
 {
-    public class UnauthorizedException
+    public class UnauthorizedException : Exception
     {
+        public UnauthorizedException(string mensagem)
+            : base(mensagem) { }
     }
 }
