@@ -4,7 +4,7 @@ Esse projeto faz parte do programa de formações de desenvolvedores Full Stack 
 
 <br>
 
-# LAB Clothing Collection (BackEnd)
+# Fashion Design (BackEnd)
 
 É um software audacioso para gestão de coleções de moda no setor de vestuário. Nesse repositório está a aplicação Back-End do software, sendo uma API Rest construída utilizando C# e .NET, com métodos GET, POST, PUT, PATCH e DELETE bem definidos.
 Nesta aplicação para gerenciamento de coleções de moda e dos modelos, sendo possivel adicionar, editar e excluir coleções, modelos e usuarios.
@@ -79,13 +79,12 @@ As re equisições para a API seguem os seguintes padrões:
 
 ## Autoria do Projeto
 
-<div class="col align-itens-center text-center">
-
 <div>
 
 > 
 > <a href="https://github.com/danitavareslobo"><img src="https://user-images.githubusercontent.com/107322230/230226213-2a6c2774-cace-453a-b78c-9bd57fe045a5.jpg" width= 120 target="_blank"></a>
 <a href="https://github.com/danitavareslobo"> <p >  Daniele Tavares Lobo </p></a>
+
 </div>
 
 <div>
@@ -93,4 +92,5 @@ As re equisições para a API seguem os seguintes padrões:
 > 
 > <a href="https://github.com/TrizCes"><img src="https://github.com/danitavareslobo/fashionDesign-backend/assets/107322230/3686f6ad-6625-4150-8a84-db72552c24e7" width= 120 target="_blank"> </a>
 <a href="https://github.com/TrizCes"> <p>Beatriz Ceschini  </p></a>
+
 </div>
